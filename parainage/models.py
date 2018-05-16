@@ -11,5 +11,5 @@ class BaseEntity(models.Model): # Entity de base
     class Meta:
         abstract = True
 
-class Person(BaseEntity):
+class Person(BaseEntity): # Entite Person
     name = models.CharField(max_length=50)
